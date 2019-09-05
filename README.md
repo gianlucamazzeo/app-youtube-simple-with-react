@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-run mockup.png and you can see simple elements of app, also component.png help you to know the React components of simple App
+Run mockup.png and you can see simple elements of app, also component.png help you to know the React components of simple App
 
 ## Available Scripts
 
