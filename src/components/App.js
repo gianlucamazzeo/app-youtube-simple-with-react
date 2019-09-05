@@ -2,11 +2,7 @@ import React from 'react';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
-<<<<<<< HEAD
 //
-=======
-
->>>>>>> f9952de8b2d4bd26eea4fe3159bad33dcaf8e22c
 class App extends React.Component {
     state = { videos: [] };  // initialize state object array 
   
