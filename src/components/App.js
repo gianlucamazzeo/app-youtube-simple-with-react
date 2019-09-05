@@ -2,10 +2,14 @@ import React from 'react';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
+<<<<<<< HEAD
 //
+=======
+
+>>>>>>> f9952de8b2d4bd26eea4fe3159bad33dcaf8e22c
 class App extends React.Component {
     state = { videos: [] };  // initialize state object array 
-
+  
     onTermSubmit = async term => {  ////  async call
        // console.log(term);
       const response =  await   youtube.get('/search', {   ////  
@@ -16,6 +20,7 @@ class App extends React.Component {
 
        this.setState({ videos: response.data.items}); // update state to video Object array
     };
+
 
     // create callback 
     render() {
