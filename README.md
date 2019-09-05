@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run mockup.png and you can see simple elements of app, also component.png that help you to know the React components of simple App and processApiYouTube.png it's small process how app connect to Api of YouTube
+Run mockup.png and you can see simple elements of app, also component.png that help you to know the React components of App and processApiYouTube.png it's small process how app using Axios Library for connecting  to the Api of YouTube 
 
 ## Available Scripts
 
