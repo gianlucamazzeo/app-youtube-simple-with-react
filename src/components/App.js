@@ -18,9 +18,8 @@ class App extends React.Component {
        this.setState({ videos: response.data.items}); // update state to video Object array
     };
 
-    onVideoSelect = video => {
-       // console.log('From the app!', video);
-        this.setState({ selectedVideo: video });
+    onVideoSelect = (video) => {       
+       this.setState({ selectedVideo: video });
     };
 
     // create callback 
@@ -28,10 +27,10 @@ class App extends React.Component {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit} />
-                <VideoDetail videos={this.state.selectVideo}/>
+                <VideoDetail video={this.state.selectedVideo}/>
                 <VideoList 
-                onVideoSelect={this.onVideoSelect}
-                videos={this.state.videos} />
+                  onVideoSelect={this.onVideoSelect}
+                  videos={this.state.videos} />
             </div>
         );
     }
