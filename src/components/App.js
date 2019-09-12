@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from './SearchBar';   /////  search 
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
@@ -24,9 +24,7 @@ class App extends React.Component {
            selectedVideo: response.data.items[0]
            
         }); // update state to video Object array
-    };
-
-    
+    };    
 
     onVideoSelect = (video) => {
         console.log(video);       
