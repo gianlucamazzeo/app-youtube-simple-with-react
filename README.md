@@ -1,6 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Desc
 Run mockup.png and you can see simple elements of app, also component.png that help you to know the React components of App and processApiYouTube.png it's small process how app using Axios Library for connecting  to the Api of YouTube 
+
+# ! important Youtube Api Key
+For the app to work properly, it is necessary to insert in src/apis/youtube.js file the Youtube Video Key for developers that you can generate from your Google products console here https://console.cloud.google.com/apis/library/youtube.googleapis.com
+
 
 # ! Important  Axios Library
 The axios library released v0.19.0 which seems to have included a bug that was never resolved in the beta version. This will cause a 400 error failure with the message "Required Parameter : part"
@@ -8,8 +13,6 @@ The axios library released v0.19.0 which seems to have included a bug that was n
 The get around this and follow along with the course, do the following:
 
 npm install axios@0.18.1
-
-
 
 
 ## Available Scripts
