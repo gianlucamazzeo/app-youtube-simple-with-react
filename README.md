@@ -1,3 +1,6 @@
+
+![alt text](https://github.com/gianlucamazzeo/react-app-youtube-simple/blob/master/repository-open-graph-template-review.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Desc
