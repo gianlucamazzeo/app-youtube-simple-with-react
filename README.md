@@ -13,7 +13,7 @@ For the app to work properly, it is necessary to insert in src/apis/youtube.js f
 # ! Important  Axios Library
 The axios library released v0.19.0 which seems to have included a bug that was never resolved in the beta version. This will cause a 400 error failure with the message "Required Parameter : part"
 
-The get around this and follow along with the course, do the following:
+The get around this, do the following:
 
 npm install axios@0.18.1
 
